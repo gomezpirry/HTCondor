@@ -1,0 +1,19 @@
+# --- 720 x265
+Job x265_City_720 				x265/ClassE/City_1280x720_60.condor
+Job x265_CrowdRun_720 			x265/ClassE/CrowdRun_1280x720p_50.condor 
+Job x265_MobileCalendar_720 		x265/ClassE/MobileCalendar_1280x720p_50.condor
+Job x265_ParkRun_720 			x265/ClassE/ParkRun_1280x720_50.condor
+# --- 1080 x265
+Job x265_BasketballDrive_1080 	x265/ClassB/BasketballDrive_1920x1080_50.condor
+Job x265_BQTerrace_1080 			x265/ClassB/BQTerrace_1920x1080_60.condor
+Job x265_Cactus_1080 			x265/ClassB/Cactus_1920x1080_50.condor 
+Job x265_Kimono1_1080 			x265/ClassB/Kimono1_1920x1080_24.condor
+Job x265_ParkScene_1080 			x265/ClassB/ParkScene_1920x1080_24.condor
+Job x265_PedestrianArea_1080 	x265/ClassB/PedestrianArea_1920x1080_25.condor
+# --- 4k x265
+Job x265_PeopleOnStreet_1600 	x265/ClassA/PeopleOnStreet_2560x1600_30.condor    
+Job x265_Traffic_1600 			x265/ClassA/Traffic_2560x1600_30.condor
+Job x265_CrowdRun_2160 			x265/ClassA/CrowdRun_3840x2160_50.condor
+Job x265_ParkJoy_2160 			x265/ClassA/ParkJoy_3840x2160_50.condor
+
+

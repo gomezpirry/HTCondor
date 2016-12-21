@@ -1,0 +1,22 @@
+# --- 720 vp9
+Job vp9_City_720 				vp9/ClassE/City_1280x720_60.condor
+Job vp9_CrowdRun_720 			vp9/ClassE/CrowdRun_1280x720p_50.condor 
+Job vp9_MobileCalendar_720 		vp9/ClassE/MobileCalendar_1280x720p_50.condor
+Job vp9_ParkRun_720 			vp9/ClassE/ParkRun_1280x720_50.condor
+
+# --- 1080 vp9
+Job vp9_BasketballDrive_1080 	vp9/ClassB/BasketballDrive_1920x1080_50.condor
+Job vp9_BQTerrace_1080 			vp9/ClassB/BQTerrace_1920x1080_60.condor
+Job vp9_Cactus_1080 			vp9/ClassB/Cactus_1920x1080_50.condor 
+Job vp9_Kimono1_1080 			vp9/ClassB/Kimono1_1920x1080_24.condor
+Job vp9_ParkScene_1080 			vp9/ClassB/ParkScene_1920x1080_24.condor
+Job vp9_PedestrianArea_1080 	vp9/ClassB/PedestrianArea_1920x1080_25.condor
+
+# --- 4k vp9
+Job vp9_PeopleOnStreet_1600 	vp9/ClassA/PeopleOnStreet_2560x1600_30.condor    
+Job vp9_Traffic_1600 			vp9/ClassA/Traffic_2560x1600_30.condor
+Job vp9_CrowdRun_2160 			vp9/ClassA/CrowdRun_3840x2160_50.condor
+Job vp9_ParkJoy_2160 			vp9/ClassA/ParkJoy_3840x2160_50.condor
+
+
+

@@ -1,0 +1,21 @@
+executable = Encoders/TAppEncoderStatic
+arguments = -c BasketballDrive_1920x1080_50.cfg -c encoder_randomaccess_main.cfg -q 22 -b /cluster/augusto/bitstream/BasketballDrive_1920x1080_50/BasketballDrive_1920x1080_50_QP22.hevc
+output = output/BasketballDrive_1920x1080_50/BasketballDrive_1920x1080_50_QP22.txt
+error = error/BasketballDrive_1920x1080_50_error.txt
+log = log/BasketballDrive_1920x1080_50_log.txt
+universe = vanilla
+Requirements = (machine == "uvcluster-11.cloud.univalle.edu.co" || machine == "uvcluster-12.cloud.univalle.edu.co" || machine == "uvcluster-13.cloud.univalle.edu.co")
+request_cpus = 64
+should_transfer_files = YES
+transfer_input_files = HM/cfg/BasketballDrive_1920x1080_50.cfg, HM/cfg/encoder_randomaccess_main.cfg
+when_to_transfer_output = ON_EXIT
+queue
+arguments = -c BasketballDrive_1920x1080_50.cfg -c encoder_randomaccess_main.cfg -q 27 -b /cluster/augusto/bitstream/BasketballDrive_1920x1080_50/BasketballDrive_1920x1080_50_QP27.hevc
+output = output/BasketballDrive_1920x1080_50/BasketballDrive_1920x1080_50_QP27.txt
+queue
+arguments = -c BasketballDrive_1920x1080_50.cfg -c encoder_randomaccess_main.cfg -q 32 -b /cluster/augusto/bitstream/BasketballDrive_1920x1080_50/BasketballDrive_1920x1080_50_QP32.hevc
+output = output/BasketballDrive_1920x1080_50/BasketballDrive_1920x1080_50_QP32.txt
+queue
+arguments = -c BasketballDrive_1920x1080_50.cfg -c encoder_randomaccess_main.cfg -q 37 -b /cluster/augusto/bitstream/BasketballDrive_1920x1080_50/BasketballDrive_1920x1080_50_QP37.hevc
+output = output/BasketballDrive_1920x1080_50/BasketballDrive_1920x1080_50_QP37.txt
+queue

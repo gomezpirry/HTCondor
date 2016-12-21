@@ -1,0 +1,21 @@
+executable = Encoders/vpxenc
+arguments =  --codec=vp9 -w 416 -h 240 --i420 --fps=30000/1001 --kf-min-dist=32 --kf-max-dist=32 --end-usage=vbr --tune=psnr --min-q=18 --max-q=26 --psnr --limit= --verbose  -o /cluster/augusto/bitstream/vp9/RaceHorses_416x240_30/RaceHorses_416x240_30_QP22.hevc /cluster/augusto/RaceHorses_416x240_30.yuv 
+output = error/vp9/RaceHorses_416x240_30/RaceHorses_416x240_30_QP22.txt
+error = output/vp9/RaceHorses_416x240_30/RaceHorses_416x240_30_QP22.txt
+log = log/VP9/RaceHorses_416x240_30_log.txt
+universe = vanilla
+Requirements = (machine == "uvcluster-11.cloud.univalle.edu.co" || machine == "uvcluster-12.cloud.univalle.edu.co" || machine == "uvcluster-13.cloud.univalle.edu.co")
+request_cpus = 64
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+queue
+arguments =  --codec=vp9 -w 416 -h 240 --i420 --fps=30000/1001 --kf-min-dist=32 --kf-max-dist=32 --end-usage=vbr --tune=psnr --min-q=18 --max-q=26 --psnr --limit= --verbose  -o /cluster/augusto/bitstream/vp9/RaceHorses_416x240_30/RaceHorses_416x240_30_QP22.hevc /cluster/augusto/RaceHorses_416x240_30.yuv 
+output = error/vp9/RaceHorses_416x240_30/RaceHorses_416x240_30_QP27.txt
+error = output/vp9/RaceHorses_416x240_30/RaceHorses_416x240_30_QP27.txt
+queue
+arguments =  --codec=vp9 -w 416 -h 240 --i420 --fps=30000/1001 --kf-min-dist=32 --kf-max-dist=32 --end-usage=vbr --tune=psnr --min-q=18 --max-q=26 --psnr --limit= --verbose  -o /cluster/augusto/bitstream/vp9/RaceHorses_416x240_30/RaceHorses_416x240_30_QP22.hevc /cluster/augusto/RaceHorses_416x240_30.yuv 
+output = error/vp9/RaceHorses_416x240_30/RaceHorses_416x240_30_QP32.txt
+error = output/vp9/RaceHorses_416x240_30/RaceHorses_416x240_30_QP32.txt
+arguments =  --codec=vp9 -w 416 -h 240 --i420 --fps=30000/1001 --kf-min-dist=32 --kf-max-dist=32 --end-usage=vbr --tune=psnr --min-q=18 --max-q=26 --psnr --limit= --verbose  -o /cluster/augusto/bitstream/vp9/RaceHorses_416x240_30/RaceHorses_416x240_30_QP22.hevc /cluster/augusto/RaceHorses_416x240_30.yuv 
+output = error/vp9/RaceHorses_416x240_30/RaceHorses_416x240_30_QP37.txt
+error = output/vp9/RaceHorses_416x240_30/RaceHorses_416x240_30_QP37.txt

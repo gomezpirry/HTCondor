@@ -1,0 +1,23 @@
+executable = Encoders/vpxenc
+arguments =  --codec=vp9 -w 1920 -h 1080 --i420 --fps=24000/1001 --kf-min-dist=32 --kf-max-dist=32 --end-usage=vbr --tune=psnr --min-q=18 --max-q=26 --psnr --limit=240 --verbose  -o /cluster/augusto/bitstream/vp9/Kimono1_1920x1080_24/Kimono1_1920x1080_24_QP22.hevc /cluster/augusto/Kimono1_1920x1080_24.yuv 
+output = error/vp9/Kimono1_1920x1080_24/Kimono1_1920x1080_24_QP22.txt
+error = output/vp9/Kimono1_1920x1080_24/Kimono1_1920x1080_24_QP22.txt
+log = log/VP9/Kimono1_1920x1080_24_log.txt
+universe = vanilla
+Requirements = (machine == "uvcluster-11.cloud.univalle.edu.co" || machine == "uvcluster-12.cloud.univalle.edu.co" || machine == "uvcluster-13.cloud.univalle.edu.co")
+request_cpus = 64
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+queue
+arguments =  --codec=vp9 -w 1920 -h 1080 --i420 --fps=24000/1001 --kf-min-dist=32 --kf-max-dist=32 --end-usage=vbr --tune=psnr --min-q=23 --max-q=31 --psnr --limit=240 --verbose  -o /cluster/augusto/bitstream/vp9/Kimono1_1920x1080_24/Kimono1_1920x1080_24_QP27.hevc /cluster/augusto/Kimono1_1920x1080_24.yuv 
+output = error/vp9/Kimono1_1920x1080_24/Kimono1_1920x1080_24_QP27.txt
+error = output/vp9/Kimono1_1920x1080_24/Kimono1_1920x1080_24_QP27.txt
+queue
+arguments =  --codec=vp9 -w 1920 -h 1080 --i420 --fps=24000/1001 --kf-min-dist=32 --kf-max-dist=32 --end-usage=vbr --tune=psnr --min-q=28 --max-q=36 --psnr --limit=240 --verbose  -o /cluster/augusto/bitstream/vp9/Kimono1_1920x1080_24/Kimono1_1920x1080_24_QP32.hevc /cluster/augusto/Kimono1_1920x1080_24.yuv 
+output = error/vp9/Kimono1_1920x1080_24/Kimono1_1920x1080_24_QP32.txt
+error = output/vp9/Kimono1_1920x1080_24/Kimono1_1920x1080_24_QP32.txt
+queue
+arguments =  --codec=vp9 -w 1920 -h 1080 --i420 --fps=24000/1001 --kf-min-dist=32 --kf-max-dist=32 --end-usage=vbr --tune=psnr --min-q=33 --max-q=41 --psnr --limit=240 --verbose  -o /cluster/augusto/bitstream/vp9/Kimono1_1920x1080_24/Kimono1_1920x1080_24_QP37.hevc /cluster/augusto/Kimono1_1920x1080_24.yuv 
+output = error/vp9/Kimono1_1920x1080_24/Kimono1_1920x1080_24_QP37.txt
+error = output/vp9/Kimono1_1920x1080_24/Kimono1_1920x1080_24_QP37.txt
+queue

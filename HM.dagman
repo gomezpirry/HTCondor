@@ -1,0 +1,16 @@
+Job City_720 				HM/ClassE/City_1280x720_60.condor
+Job CrowdRun_720 			HM/ClassE/CrowdRun_1280x720p_50.condor 
+Job MobileCalendar_720 		HM/ClassE/MobileCalendar_1280x720p_50.condor
+Job ParkRun_720 			HM/ClassE/ParkRun_1280x720_50.condor
+Job BasketballDrive_1080 	HM/ClassB/BasketballDrive_1920x1080_50.condor
+Job BQTerrace_1080 			HM/ClassB/BQTerrace_1920x1080_60.condor
+Job Cactus_1080 			HM/ClassB/Cactus_1920x1080_50.condor 
+Job Kimono1_1080 			HM/ClassB/Kimono1_1920x1080_24.condor
+Job ParkScene_1080 			HM/ClassB/ParkScene_1920x1080_24.condor
+Job PedestrianArea_1080 	HM/ClassB/PedestrianArea_1920x1080_25.condor
+Job PeopleOnStreet_1600 	HM/ClassA/PeopleOnStreet_2560x1600_30.condor    
+Job Traffic_1600 			HM/ClassA/Traffic_2560x1600_30.condor
+Job CrowdRun_2160 			HM/ClassA/CrowdRun_3840x2160_50.condor
+Job ParkJoy_2160 			HM/ClassA/ParkJoy_3840x2160_50.condor
+
+
